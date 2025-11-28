@@ -1,0 +1,26 @@
+{
+  "name": "bingo-backend",
+  "version": "1.0.0",
+  "description": "Backend para juego de Bingo digital con Socket.IO",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "start:cluster": "node cluster.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "bingo",
+    "socket.io",
+    "game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "cors": "^2.8.5"
+  }
+}
+
+

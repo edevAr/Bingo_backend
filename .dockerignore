@@ -1,0 +1,41 @@
+# Dependencias
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Archivos de desarrollo
+.git
+.gitignore
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Archivos de documentación
+README.md
+*.md
+
+# Archivos de prueba
+*.test.js
+*.spec.js
+test/
+tests/
+
+# Variables de entorno locales
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+

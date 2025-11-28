@@ -1,0 +1,34 @@
+# Binarios
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bingo-server
+bingo-server.exe
+
+# Archivos de prueba
+*.test
+*.out
+
+# Dependencias
+vendor/
+
+# Variables de entorno
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+node_modules/
